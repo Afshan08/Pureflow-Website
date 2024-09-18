@@ -1,0 +1,262 @@
+/* Blues: Different shades of blue reflect water, purity, and trust.
+#1E90FF (Dodger Blue) – Bright, clean, and energetic.
+#00BFFF (Deep Sky Blue) – A vibrant but calm color.
+#E0FFFF (Light Cyan) – To add softness and a refreshing feel.
+White/Gray: To give a clean, pure look.
+#F0F8FF (Alice Blue) – A very light, almost white blue to balance out stronger shades.
+#F5F5F5 (White Smoke) – A subtle gray for background or sectioning.
+Green accents: To represent nature and sustainability (if relevant).
+#32CD32 (Lime Green) – For accents like buttons, giving a fresh vibe. */
+
+/* Fonts Selection 
+Font Suggestions:
+Sans-serif fonts for a clean and modern look:
+Lato – It’s sleek and neutral, perfect for a website related to water and cleanliness.
+Open Sans – Another clean, readable font that gives a sense of openness and flow.
+Raleway – Stylish and minimalistic, it adds elegance without overpowering the content.
+Serif fonts for headings or accents (if you want a classic touch):
+Playfair Display – Adds a bit of sophistication, which can give a high-quality, pure vibe. */
+
+
+/* navigation bar stying from chat gpt */
+nav {
+  background-color: #00BFFF; /* Blue background */
+  padding: 20px; /* Padding around the navbar */
+   /* Center-align the text */
+/* Font style */
+}
+
+nav h2 {
+  color: #E0FFFF; /* White color for the brand name */
+  margin: 0; /* Remove default margin */
+  /* I want it to be left aligned and a little bit padding from the left */
+  padding-left: 25px;
+  font-family: "Playfair Display", serif; 
+}
+
+nav a {
+  color: #1E90FF; /* White color for the links */
+  margin: 0 15px; /* Space between links */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Increase font size */
+  text-align: right;
+}
+
+nav a:hover {
+  color:#E0FFFF; /* Add underline on hover */
+}
+
+/* styling end from chat-gpt */
+
+/* Now the styling of the main heading from chat */
+
+.main-landing-heading h1 {
+  font-size:3.5rem; /* Large font size */
+  color: #0077b6; /* White color */
+  margin-top:100px; /* Margin from the top */
+  font-family: "Playfair Display", sans-serif; /* Font style */
+  font-weight: 800;
+  position: absolute;
+  color: #F0F8FF;
+  margin-left: 15%;
+  margin-top: 8%;
+  z-index: 1; /* Ensure it appears on top of the image */
+}
+
+.the-description{
+  color: #F5F5F5;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 19.5%;
+  font-size: 1.2rem;
+  z-index: 1;
+  font-family: "lato", sans-serif;
+  font-style: italic;
+}
+
+p button{
+
+  color:#0077b6;
+}
+
+.seconed_body{
+
+  padding: 7% 10% 5% 5%;
+}
+
+
+/* the styling ended of the main heading */
+
+
+/* Image Background and Blur Effect */
+.background{
+  position: relative;
+  height: 550px; /* Adjust the height as needed */
+  overflow: hidden;/* Ensure the image doesn't overflow the div */
+  background-color: #00BFFF;
+}
+
+.background img{
+  position: relative;
+  width: 45%;
+  margin-left: 50%;
+  margin-top: 0;
+  transform: rotate(15deg);
+
+}
+
+body{
+    background-color: #00BFFF !important;
+}
+
+/* # styling the icon on the button  */
+
+.icons{
+
+  margin: 3px 5px !important;
+}
+
+.btn{
+  margin:4% !important;
+  background-color: #0077b6 !important;
+  color: #E0FFFF !important;
+  margin-left: 0 !important;
+}
+
+#about-us {
+  background-color: #F0F8FF; /* Light Blue Background */
+  h2, h3{
+    color: #1E90FF !important; /* Dodger Blue for headings */
+    font-family: 'Playfair Display',serif;
+  }
+  p {
+    color: #333; /* Darker text for better readability */
+  }
+  .lead{
+    color: #333;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+  }
+}
+
+
+#contact{
+.contactus{
+  color: #F0F8FF;
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+}
+
+.tag-line{
+  color: #0077b6;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  text-align: center;
+  padding-left: 5%;
+  margin-left: 80px;
+
+}
+label{
+  font-family: "Lato", sans-serif;
+  font-size: medium ;
+  color: #0077b6;
+}
+
+.btn{
+
+  background-color:#E0FFFF !important; 
+  color: #0077b6 !important; 
+}
+
+
+}
+
+
+.header {
+  padding: 50px 0;
+  background-color: #3498db; /* Light blue for header background */
+  color: #fff;
+  text-align: center;
+}
+.header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.header p {
+  font-size: 1.125rem;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 5% 5%;
+  
+  background-color: #F0F8FF;
+  color: #0077b6;
+  text-align: center;
+}
+.footer_links {
+  color: #1E90FF;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+strong{
+
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+/* Visualization Section Styling */
+.visualization-section {
+  padding-bottom: 5%;
+
+}
+
+.visualization-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #00BFFF;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.data-points {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: #F0F8FF;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.data-description {
+  list-style-type: none;
+  padding-left: 0;
+  font-family: "Lato", sans-serif;
+  color: #E0FFFF;
+  margin-bottom: 20px;
+}
+
+.data-description li {
+  margin-bottom: 10px;
+}
+
+.data-insights {
+  font-family: "Playfair Display", serif;
+  font-size: 2.3rem;
+  color: #F0F8FF;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.data-description p {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-style: italic;
+}

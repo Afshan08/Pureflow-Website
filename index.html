@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font acwesom for icons  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="./static/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>PureFlow</title>
+</head>
+<body>
+     <!-- Script for js functionality  -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <div class="seconed_body">  
+    <nav class="navbar navbar-expand-lg nav-dark">
+            <h2>PureFlow</h2>
+            <div class="ms-auto">
+                <a href="#about-us">Info</a>
+                <a href="#visualize">Visualize it</a>
+            </div>
+        </nav>
+       
+        <div class="main-landing-heading">
+            <h1 class="col-lg-6 heding" >
+                Pure Water for a Healthier Tomorrow
+            </h1>
+            <p class="col-lg-4 the-description">
+                Discover solutions for maintaining global water purity and join the movement 
+                towards a sustainable future.
+                <button class="btn btn-lg"> <i class="fa-solid fa-chart-simple icons"></i>   Visualize Water Trends</button>
+            </p>
+        
+            <div class="background">
+                <img src="../static/images/water.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- About Us Section -->
+<section id="about-us" class="py-5">
+  <div class="About-us">
+    <div class="container">
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12 text-center mb-4">
+          <h2 class="display-4">About Us</h2>
+          <p class="lead">
+            Committed to Clean Water Solutions for a Healthier Planet.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Image Section (Optional) -->
+        <div class="col-md-6">
+          <img src="../static/images/about_us_bottle.png" alt="Clean Water" class="img-fluid rounded">
+        </div>
+  
+        <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h3 style="font-family: 'Playfair Display', serif;">Our Mission</h3>
+            <p style="font-family: 'Lato', sans-serif;">
+              At Pureflow, we believe that access to clean and safe water is a fundamental human right. Our mission is to 
+              educate people around the world about water pollution and provide valuable data, research, and solutions to 
+              promote water sustainability. Through innovation and collaboration, we aim to create a cleaner, healthier future 
+              for everyone.
+            </p>
+            
+            <!-- Call to Action Button -->
+            <a href="#contact" class="btn">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h2 class="text-center mb-4 contactus">Get In Touch</h2>
+          <p class="text-center tag-line col-lg-8">We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+          
+          <form method="POST" action="/">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" name="name" placeholder="John Doe">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" name="email" placeholder="email@example.com">
+              <label for="email">Email Address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" name="subject" placeholder="Subject">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a message here" name="message" style="height: 150px;"></textarea>
+              <label for="message"> <i class="fa-solid fa-message icons"></i> Your Message</label>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-custom"> Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visualization and Key Points Section -->
+<section class="visualization-section" id="visualize">
+  <div class="container">
+    <h2 class="text-center mb-4 data-visual">Data Visualizations</h2>
+
+    <div class="row mb-5">
+      <div class="col-md-12">
+          <h2>Understanding the Data</h2>
+          <p class="data-points">Our water quality data includes various parameters measured across different stations. Here's a brief explanation of some key measurements:</p>
+          <ul class="data-description">
+              <li class="data-description"><strong>Alkalinity (Alk):<br></strong> Measured in uEq/l (microequivalents per liter), it indicates the water's capacity to neutralize acids.</li>
+              <li class="data-description"><strong>Dissolved CO2 (pCO2):<br></strong> Measured in uM (micromolar), it represents the amount of carbon dioxide dissolved in the water.</li>
+              <li class="data-description"><strong>Dissolved O2 (O2):<br></strong> Also measured in uM, it shows the amount of oxygen available for aquatic life.</li>
+              <li class="data-description"><strong>pH:<br></strong> A measure of how acidic or basic the water is, with 7 being neutral.</li>
+              <li class="data-description"><strong>Nitrates (NO3) and Phosphate (PO4):<br></strong> Both measured in uM, these are important nutrients that can affect water quality and aquatic ecosystems.</li>
+          </ul>
+          <p>The 'Station' column in our data represents different sampling locations. Each station is denoted by a unique code (e.g., VGr, Rlca, SAI).</p>
+          <p>For a complete list of parameters and their units, please refer to the data dictionary included in the downloadable CSV file.</p>
+      </div>
+  </div>
+    <!-- Existing plot -->
+<div class="row mb-5">
+  <div class="col-md-8">
+      <div id="plot1"></div>
+  </div>
+  <div class="col-md-4">
+      <h3 class="data-points">Key Points</h3>
+      <ul class="data-description">
+          <li>Key observation from data visualization plot 1.</li>
+          <li>Another important insight from data visualization plot 1.</li>
+      </ul>
+      <h3 class="data-insights">Insights</h3>
+      <p class="data-description">Detailed analysis and interpretations of plot 1. Explain trends, anomalies, and significant findings.</p>
+  </div>
+</div>
+
+<!-- New plot 2 -->
+<div class="row mb-5">
+  <div class="col-md-8">
+      <div id="plot2"></div>
+  </div>
+  <div class="col-md-4">
+      <h3 class="data-points">Key Points</h3>
+      <ol class="data-description">
+       <li> Most stations have pH values ranging between approximately 6.5 and 7.5.</li>
+       <li>There's variability in pH across different stations, but no extreme outliers.</li>
+       <li> Some stations (e.g., Xib) show a wider range of pH values than others.</li>
+      </ol>
+    <h3 class="data-insights">Insights</h3>
+    <p class="data-description">The pH levels across most stations fall within a range typical for natural waters, which is generally considered healthy for aquatic life.
+      Stations with wider pH ranges might be experiencing more fluctuations due to local environmental factors or human activities.
+      The consistency in pH ranges across most stations suggests a relatively stable aquatic environment overall.</p>
+  </div>
+</div>
+<div class="row mb-3">
+  <div class="col-md-6">
+      <label for="paramSelect">Select parameter to compare with pH:</label>
+      <select id="paramSelect" class="form-control" onchange="updatePlot(this.value)">
+          {% for column in numeric_columns %}
+              <option value="{{ column }}" {% if column == selected_param %}selected{% endif %}>{{ column }}</option>
+          {% endfor %}
+      </select>
+  </div>
+</div>
+
+<!-- New plot 3 -->
+<div class="row mb-5">
+  <div class="col-md-8">
+      <div id="plot3"></div>
+  </div>
+  <div class="col-md-4">
+      <h3 class="data-points">Key Points</h3>
+      <ul class="data-description">
+        <li>There's a wide range of alkalinity values, from near 0 to about 1200 uEq/l.</li>
+        <li>Dissolved oxygen levels mostly range from about 50 to 250 uM.</li>
+        <li>There's no clear linear relationship between alkalinity and dissolved oxygen.</li>
+      </ol>
+      <h3 class="data-insights">Insights</h3>
+      <p class="data-description">
+        The wide range of alkalinity values suggests diverse water sources 
+        or geological influences across sampling locations.<br>
+        Most samples show healthy levels of dissolved oxygen, which is crucial for aquatic life.<br>
+        The lack of a clear relationship between alkalinity and dissolved oxygen 
+        indicates that other factors are likely influencing oxygen levels in these water bodies.<br>
+        The cluster of points with very low alkalinity but varying oxygen 
+        levels might represent a specific type of water body or condition worth 
+        investigating further.</p>
+  </div>
+</div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-md-12 text-center">
+        <a href="{{ url_for('download_data') }}" class="btn btn-primary">Download Data</a>
+    </div>
+  </div>
+  <!-- Update the download button description -->
+<div class="row mb-5">
+  <div class="col-md-12 text-center">
+      <a href="{{ url_for('download_data') }}" class="btn btn-primary">Download Data (Includes Data Dictionary)</a>
+      <p class="data-description">The downloaded file includes a data dictionary explaining all parameters and their units.</p>
+  </div>
+</div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Pureflow. <br><br>
+      <a class="footer_links" href="#">Privacy Policy</a> | <a href="#contact" class="footer_links">Contact Us</a></p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- Add this script at the end of your body tag -->
+<!-- Add this script at the end of your body tag -->
+<script>
+  var plot1 = JSON.parse('{{ plot_json1 | safe }}');
+  var plot2 = JSON.parse('{{ plot_json2 | safe }}');
+  var plot3 = JSON.parse('{{ plot_json3 | safe }}');
+  
+  Plotly.newPlot('plot1', plot1.data, plot1.layout);
+  Plotly.newPlot('plot2', plot2.data, plot2.layout);
+  Plotly.newPlot('plot3', plot3.data, plot3.layout);
+</script>
+<!-- Add this JavaScript at the end of your file, after the plot scripts -->
+<script>
+  function updatePlot(param) {
+      window.location.href = "/?param=" + param;
+  }
+  </script>
+</body>
+</html>
